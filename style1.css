@@ -1,0 +1,152 @@
+main{
+    margin: 0px;
+    padding: 0px;
+}
+.top{
+    height: 40px;
+    width: 100vw;
+    background-color: rgb(32, 106, 202);
+    display: flex;
+}
+.sign{
+    height: 40px;
+    width: 50px;
+    background-color:  rgb(32, 106, 202);
+    margin-left: 500px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.search{
+    height: 40px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+.name{
+    height: 40px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.k{
+    height: 40px;
+    width: 50px;
+    background-color: whitesmoke;
+    margin-left: 180px;
+}
+.pic{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(32, 106, 202);
+    display: flex;
+    border: 1px,solid;
+}
+.p{
+    height: 40px;
+    width: 50px;
+    background-image: url(istockphoto-800359302-612x612.jpg);
+    background-size: contain;
+    border-radius: 35px;
+   
+}
+.n{
+    height: 40px;
+    width: 50px;
+    background-color: rgb(32, 106, 202);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.home{
+    height: 40px;
+    width: 60px;
+    background-color: rgb(32, 106, 202);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    border: 1px,solid;
+    color: white;
+}
+.Find{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(32,106,202);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    border: 1px,solid;
+
+}
+.cr{
+    height: 40px;
+    width: 70px;
+    background-color: rgb(32,106,202);
+    color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.icon{
+    height: 40px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+   
+}
+.Friends{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.msg{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(255, 255, 255);
+}
+.bell{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(255, 255, 255);
+}
+.us{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(255, 255, 255);
+}
+.qu{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(255, 255, 255);
+}
+.rl{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+}
+.middle{
+    height: 550px;
+    width: 100vw;
+    background-image: url(istockphoto-800359302-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+.sn{
+    height: 150px;
+    width: 150px;
+    background-image: url(istockphoto-1550071750-2048x2048.jpg);
+    border-radius: 50%;
+    background-size: contain;
+    position: absolute;
+    top: 500px;
+    left: 50px;
+}

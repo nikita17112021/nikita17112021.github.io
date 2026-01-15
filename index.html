@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top">
+        <div class="topL">
+            <div class="type">
+            <div class="typeup"><strong><p>facebook</p></strong></div>
+            <div class="typedown"><p>Facebook helps you connect and share with the people in your life</p></div>
+            </div>
+        </div>
+        <div  class="topr"><input type="text" id="Email" placeholder="Email address or phone number">
+        <input type="text" id="Password" placeholder="Password">
+        <button onclick="Login()">Log in</button>
+        
+        <div class="pass">Forgotten Password?</div>
+        <hr>
+        <div class="create"><p>Create new account</p></div>
+        </div>
+    </div>
+  <script>
+    function Login(){
+        let Emailinput = document.getElementById("Email").value 
+        let Passwordinput = document.getElementById("Password").value 
+        let user = "kanha@gmail.com"
+        let password ="kanha123"
+
+        if(Emailinput==user && Passwordinput==password){
+            window.location.href="profile.html"
+        }
+        else{
+            window.location.href="index.html"
+        }
+    }
+  </script>
+</body>
+</html>
