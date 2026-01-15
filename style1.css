@@ -150,3 +150,51 @@ main{
     top: 500px;
     left: 50px;
 }
+.rk{
+    height: 40px;
+    width: 90px;
+    color: white;
+    position: absolute;
+    background-size: contain;
+    top: 540px;
+    left: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-style: bold;
+}
+.info{
+    height: 40px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 520px;
+    left: 1000px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.Log{
+    height: 40px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 520px;
+    left: 1210px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.list{
+    height: 50px;
+    width: 100vw;
+    background-color: whitesmoke;
+}
+.op{
+    height: 50px;
+    width: 700px;
+    background-color: rgb(126, 141, 155);
+    margin-left: 400px;
+}
